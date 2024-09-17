@@ -1,0 +1,162 @@
+/* Reset some default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #B7966B;
+    color: #502B0F;
+  }
+  
+  header {
+    background-color: #946D43;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #502B0F;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #987554;
+    border-radius: 5px;
+  }
+  
+
+  /* Main content styling */
+  main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  
+  /* Section Styles */
+  section {
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  /* Hero content styling */ 
+  .top-cube {
+    display: flex;
+    align-items: center;
+  }
+
+  .profile-photo {
+    max-height: 400px;
+    float: left;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  #hero {
+    flex: 1;
+    background-color: #D9C19D;
+    max-width: 500px;
+    
+  }
+
+  /* About section */
+  #about {
+    background-color: #D9C19D;
+    color: #502B0F;
+  }
+  
+  #about h1 {
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+  
+  #about p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
+  /* Projects section */
+  #projects {
+    background-color: #D9C19D;
+    color: #502B0F;
+  }
+  
+  #projects h1 {
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+  
+  #projects p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+
+  /* Accomplishment section */
+  #accomplishments {
+    background-color: #D9C19D;
+    color: #502B0F;
+  }
+  
+  #accomplishments h1 {
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+  
+  /* Contact section */
+  #contact {
+    background-color: #D9C19D;
+    color: #502B0F;
+  }
+  
+  #contact h1 {
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+  
+  #contact p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    background-color: #502B0F;
+    color: black;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+    
+    section {
+      padding: 15px;
+    }
+  }
+  
